@@ -1,0 +1,39 @@
+#CONTEXTUALIZAÇÃO DO CENÁRIO NA ÁREA DE BANCO DE DADOS
+
+//Cenário de dados
+big data
+
+cassandra // mongoDB // neo4j // Azure // aws // redis
+
+
+//O que são banco de dados
+SGBD é diferente de BD 
+
+dados em Négocios, Medicina. E-commerce, Engenharia, Social Media, geralmente vem em conjuntos e esses conjuntos possuem uma estrutura.
+
+Dados são relacionados a um determinado acontecimento e disso tem fatos representados e esse fato precisa ser tratado e transformado em informação. Esses dados são armazenados em um DataBase.
+
+Coleção de palavras, que dentre elas há relacionamentos entre dados, constituindo então um banco de dados.
+
+Dentro de um SGBD pode ter diversos banco de dados
+Contexto - representação do mundo real;
+Coerência;
+Propósito.
+
+Diversas fontes distintas produzindo dados-> são gerenciados por algum software -> acesso desses dados por uma API
+
+Ações no banco dados acarreta em mudança de estado. para que essa mudança seja confiavel não pode ter erro na modificação.
+
+Tem tamanhos variados. Centenas a bilhoes de registros 
+
+Precisa ter sempre uma manutenção para que seja coerente e consistente.
+
+
+//SGBD
+Definição        -> Tipos de dados
+Construção       -> Inserção de dados
+Manipulação      -> Recuperação e geração de relatórios 
+Compartilhamento -> Simultaneidade e Acesso
+com as consultas ele retorna os dados relacionados
+
+Proteção - Contornar ao mal funcionamento e Controle de acesso
