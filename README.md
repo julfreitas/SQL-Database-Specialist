@@ -1,5 +1,5 @@
 # SQL Database Specialist
-Bootcamp de Desenvolvimento de Habilidades em Banco de Dados
+## Bootcamp de Desenvolvimento de Habilidades em Banco de Dados
 
 Seja bem-vindo ao Bootcamp de Desenvolvimento de Habilidades em Banco de Dados! Este é um repositório dedicado ao bootcamp que estou fazendo para aprimorar minhas habilidades na área de banco de dados.
 
