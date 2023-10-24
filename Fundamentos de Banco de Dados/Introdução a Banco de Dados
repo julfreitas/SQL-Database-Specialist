@@ -37,3 +37,109 @@ Compartilhamento -> Simultaneidade e Acesso
 com as consultas ele retorna os dados relacionados
 
 Proteção - Contornar ao mal funcionamento e Controle de acesso
+Ciclo de vida de longo prazo
+
+Software modular - composto por outros softwares que vão ajudar.
+
+Metadados - Informações que fornecem uma descrição concisa dos dados contidos no BD. 
+
+Construção - como vai ser feito o acesso aos dados. 
+
+Manipulação - tem os updates, acabam acontecend via acesso de usuário, essa solicitação é processada pelo sgbd, e depois de processa é retornada para o usuario.
+
+Compartilhamento- Por padrão o BD realiza o bloqueio e a liberação das tabelas.
+
+
+//Breve histórico de SGBDs
+Como surgiu: 1960 e em 1970 surgiu a ideia de relacional 
+qual foi a motivação feito para diminuir custo com pessoal.
+quando tem uma pessoa gerenciando os dados pode acontecer inconsistência de dados.
+
+Modelo relacional foi criado(1970 - Ted Codd) com base em Cálculo e Álgebra Relacional.
+
+Primeiros do Mercado 
+Uso dos pcs
+Evolução do modelo relacional - anos 80
+Feedback bom, Sistemas distribuídos, desenvolvimento dos sistemas. Evoluiu de 8MB para TeraBytes
+
+Modelos que não deram certo - Hierarquico, em Rede
+
+
+//Modelo de Banco de Dados Relacional
+Álgebra relacional
+Relações 
+TAD para armazenamento 
+Transparência
+SQL
+
+Usuários de BD
+User convencional
+Altera e extrai informações 
+Duráveis
+Transações (agrupar para executar)
+
+Administrador do BD
+Definição das tabelas e constrains para dados
+Comandos traduzidos pelo processador DDL(linguagem de definição de dados)
+
+Como o BD entende a DDL
+vai ser realizado uma tradução onde uma query precisa ser executada, depois acontece um mecanismo de execução para executar o que foi compilado, depois o gerenciador vai tratar a demanda para direcionar corretamente para extração dos dados
+
+Storage e Buffer
+Gerenciador de armazenamento (Movimento)
+Gerenciado de buffer (Troca)
+
+DML (Linguagem de Definição de Dados)
+
+Apenas um SGBD em operação ? Nao. muitas empresas usam mais de um e com isso precisa acontecer uma integração entre os SGBDs. Repositórios centralizados(Data warehouses) / Mediadores( Middleware)
+
+
+
+Com o passar dos anos a quantidade e estrutura dos dados evoluíram culminando no surgimento de um novo paradigma. Com essa evolução foram definidos novos termos, o Big Data e o High Performance Computing - HPC. Cada área possui suas particularidades, contudo ambos trabalham em um cenário considerando 3 fatores. Quais são estes fatores?
+- GRANDE VOLUMES DE DADOS, HETEROGENEIDADE E VELOCIDADE
+
+
+SGBDs no modelo relacional suportam a grande maioria dos cenários de gerenciamento de dados. Contudo, há situações de alta demanda (além da capacidade atual do sistema) que ocorrem em momentos pontuais dentro do escopo dos dados. Um exemplo desse evento é a Black Friday. Neste sentido, qual dos cenários abaixo é o mais indicado?
+- ESCALONAR HORIZONTALMENTE, APROVEITANDO TECNOLOGIAS EMERGENTES COMO SGBDS DISTRIBUIDOS E/OU NoSQL. SISTEMAS DESSE TIPO CONSEGUEM LIDAR COM SÚBITO AUMENTO DE CARGA.
+
+
+O termo banco de dados pode ser utilizado de maneira mais direcionada. Além disso, muitas vezes como um sinônimo de SGBDs - sistema de banco de dados. Contudo, seu significado é mais generalista não se atendendo apenas ao sistema que o gerencia. Dessa forma, escolha dentre as afirmações, sobre banco de dados, escolha a definição geral CORRETA.
+-PODEMOS CONSIDERAR UMA COLEÇÃO DE PALAVRAS, QUE DENTRE ELAS HÁ RELACIONAMENTO ENTRE DADO, CONSTRUINDO ENTÃO UM BANCO DE DADOS.
+
+
+Dentre as etapas de definição de um SGBD e seus banco de dados. Qual destas etapas está relacionada a implementação da estrutura e inserção dos dados no BD?
+-CONSTRUÇÃO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
